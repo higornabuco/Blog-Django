@@ -11,7 +11,7 @@ def post_list(request):
                   {'posts': posts})
 
 
-def post_detail(request):
+def post_detail(request, year, month, day):
     post = get_object_or_404(Post, slug=post,
                              status='published',
                              publish__year=year,
