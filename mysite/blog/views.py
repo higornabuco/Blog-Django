@@ -20,5 +20,3 @@ def post_detail(request, year, month, day):
     return render(request,
                   'blog/post/detail.html',
                   {'post': post})
-
- # commit teste
