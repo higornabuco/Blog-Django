@@ -15,3 +15,12 @@ Eu fiz algumas alterações para deixar do meu jeito, é claro. Mas eu recomendo
       
 - Inicie o server de desenvolviento do Django:<br>
     `$ python manage.py runserver`
+
+## Docker
+
+```sh
+docker build . -t blog-django
+
+docker run -p 8000:8000 blog-django
+
+```
